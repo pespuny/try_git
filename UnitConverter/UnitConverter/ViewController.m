@@ -35,4 +35,13 @@
     _resultLabel.text = resultString;
 }
 
+- (IBAction)textFieldReturn:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
+-(IBAction)backgroundTouched:(id)sender
+{
+    [_tempText resignFirstResponder];
+}
 @end

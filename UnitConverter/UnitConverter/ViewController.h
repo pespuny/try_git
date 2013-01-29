@@ -15,5 +15,9 @@
 
 - (IBAction)convertTemp:(id)sender;
 
+- (IBAction)textFieldReturn:(id)sender;
+
+- (IBAction)backgroundTouched:(id)sender;
+
 
 @end
